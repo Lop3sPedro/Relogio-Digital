@@ -24,7 +24,7 @@ body {
 
 .relogio div {
     position: relative;
-    background: linear-gradient(rgb(129, 125, 125), rgb(88, 76, 76));
+    background: linear-gradient(#eee, #333);
     height: 100%;
     width: 150px;
     display: flex;
@@ -32,7 +32,7 @@ body {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
-    color: #fff;
+    color: rgb(15, 14, 14);
     border-radius: 50%;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     letter-spacing: 3px;
@@ -41,7 +41,7 @@ body {
 .relogio span {
     font-weight: bolder;
     font-size: 60px;
-    color: #eee;
+    color: rgb(182, 174, 174);
 }
 
 h1 {
@@ -52,5 +52,5 @@ h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 50px;
-    color: #fff;
+    color: #1E90FF;
 }
